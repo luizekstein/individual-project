@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="shortcut icon" href="IMG/logo-documento.png">
+    <title>League Of Legends</title>
+</head>
+
+<body>
+
+    <!-- INICÍO DO HEADER -->
+    <div class="header">
+        <div class="container">
+            
+            <img class="img_lol" onclick="ocultaForm()" src="IMG/logo.png" alt="Logo do League Of Legends">
+
+            <nav>
+                <ul>
+                    <a href="home.html"> 
+                        <li> 
+                            <span class="linha">Atualizações</span>
+                                <span class="caixa"></span>
+                        </li> 
+                    </a>
+                    <a href="home.html"> 
+                        <li> 
+                            <span class="linha" >Notícias</span>
+                                <span class="caixa"></span>
+                        </li> 
+                    </a>
+                    <a href="home.html"> 
+                        <li> 
+                            <span class="linha" >Campeão</span>
+                        </li> 
+                    </a>
+                    <a href="cadastro.html" class="button">
+                        <li>Jogue Agora</li>
+                    </a>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <!-- FIM DO HEADER -->
+
+     <!-- INICÍO DO WALLPAPER -->
+     <div class="wallpaper">
+        <div class="centro">
+                
+            </div>
+        </div>
+    </div>
+    <!-- FIM DO WALLPAPER -->
+
+    <div class="caixa">
+        <div>
+
+        </div>
+    </div>
+
+<script>
+    var clicks = 1;
+    
+    function ocultaForm() {
+    while (clicks === 1) {
+        window.location.href = "home.html"
+        clicks++;
+    } 
+}
+    
+</script>

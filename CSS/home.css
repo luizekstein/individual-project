@@ -1,0 +1,122 @@
+/* CSS Geral da página */
+
+* {
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+/* Inicio do cabeçalho */
+
+.header {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    height: 80px;
+}
+
+.cor_lol {
+    color: white;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container .logo {
+    float: left; 
+    color: black; 
+}
+
+.container nav {
+    float: right; 
+    color: black;
+    margin-top: 5px;
+}
+
+.container a {
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+
+.container li {
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 10px;
+    margin-top: -30px;
+}
+
+.caixa {
+    border-right: 1px solid rgb(128, 128, 128);
+    margin-left: 100px;
+}
+
+.linha {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.linha:hover {
+    box-shadow: 
+        0 14px 0px 16px #111111,
+        0 16px 0px 15px #3cff00;
+
+
+}
+
+.button {
+    padding: 10px 10px 10px 15px;
+    background-color: #69ec12;
+    border-radius: 2px;
+	margin-left: 300px;
+    text-transform: uppercase;
+    display: inline-block;
+    outline: 1px solid;
+    outline-color: rgb(0, 128, 0);
+    outline-offset: 5px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+  
+.button:hover {
+    outline-color: #69ec12;
+    outline-offset: 15px;
+}
+
+ /* INICÍO DO WALLPAPER*/ 
+
+.wallpaper {    
+    background-image: url("../IMG/thresh.gif"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 486px;
+    width: 1241.5px;    
+}
+
+.caixa { /* TAG sobre o quadrado opaco */
+    top: 10%;
+    left: -5%;
+    transform: translate3d( 40%, 30%, 0 );
+    width: 60%;
+    height: 60%;
+    z-index: 30;
+    backdrop-filter: grayscale() blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.img_lol {
+    background-repeat: no-repeat; 
+    width: 3%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+}
