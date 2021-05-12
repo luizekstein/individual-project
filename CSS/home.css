@@ -126,13 +126,114 @@ body {
     padding-top: 150px;
 }
 
+/* FINAL DO WALLPAPER */
+
 /* INICÍO DA CAIXA */
-.caixa_geral {    
+.corpo_geral {    
     background-image: url("../IMG/fundo-branco.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
     height: 540px;
 }
 
-
 /* FINAL DA CAIXA */
+
+
+/* INICIO PORTFOLIO */
+
+.corpo_portfolio {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    padding: 20% 0px 3% 0px;;
+}
+
+/* INICÍO DAS IMAGENS + PORFÓLIO ESPECIFÍCO */
+
+.caixa_portfolio1  {
+    font-size: 1.1vw;
+    background-color: white;
+    border: 2px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    position: relative;
+    float: left;
+    left: 6%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.imagem_portfolio1 {
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.pinguim {
+    width: 145px;
+    position: relative;
+    left: -10%;
+}
+/*-----------------------------------------------------*/
+
+.caixa_portfolio2 {
+    color: black;
+    font-size: 1.1vw; 
+    background-color: white;
+    border: 2px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    text-align: center;
+    width: 28%;
+    height: 150px;
+    position: relative;
+    float: right;
+    right: 36%;
+}
+
+.imagem_portfolio2{
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tahmkench {
+    width: 145px;
+    position: relative;
+    left: -10%;
+}
+
+/*-------------------------------------------------*/
+
+.caixa_portfolio3  {
+    font-size: 1.1vw;
+    background-color: white;
+    border: 2px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    text-align: center;
+    width: 28%;
+    height: 150px;
+    position: relative;
+    float: left;
+    left: 44%;
+}
+
+.imagem_portfolio3{
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tft {
+    width: 145px;
+    position: relative;
+    left: -10%;
+}
