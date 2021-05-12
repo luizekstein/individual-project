@@ -18,6 +18,9 @@ body {
     background-color: #111111;
     border-bottom: 2px solid #333333;
     height: 80px;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
 }
 
 .cor_lol {
@@ -34,10 +37,19 @@ body {
     color: black; 
 }
 
+.img_lol {
+    background-repeat: no-repeat; 
+    width: 3%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
 .container nav {
     float: right; 
     color: black;
-    margin-top: 5px;
+    margin-top: -56px;
 }
 
 .container a {
@@ -67,10 +79,8 @@ body {
 
 .linha:hover {
     box-shadow: 
-        0 14px 0px 16px #111111,
+        0 13px 0px 16px #111111,
         0 16px 0px 15px #3cff00;
-
-
 }
 
 .button {
@@ -88,35 +98,41 @@ body {
   
 .button:hover {
     outline-color: #69ec12;
-    outline-offset: 15px;
+    outline-offset: 13px;
 }
 
  /* INICÍO DO WALLPAPER*/ 
 
 .wallpaper {    
-    background-image: url("../IMG/thresh.gif"); 
+    background-image: url("../VIDEO/video.lol.gif");
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 486px;
-    width: 1241.5px;    
+    height: 600px;
 }
 
-.caixa { /* TAG sobre o quadrado opaco */
-    top: 10%;
-    left: -5%;
-    transform: translate3d( 40%, 30%, 0 );
-    width: 60%;
-    height: 60%;
-    z-index: 30;
-    backdrop-filter: grayscale() blur(10px);
-    background-color: rgba(255, 255, 255, 0.3);
+.centro { 
+    height: 600px;
+    backdrop-filter: blur(10px);
+    background-color: rgb(13 13 13 / 1%);
 }
 
-.img_lol {
+.div_video {
+    height: 515px;
+    text-align: center;
+}
+
+.video {
+    width: 1100px;
+    padding-top: 150px;
+}
+
+/* INICÍO DA CAIXA */
+.caixa_geral {    
+    background-image: url("../IMG/fundo-branco.jpg");
     background-repeat: no-repeat; 
-    width: 3%;
-    float: left;
-    margin-left: 40px;
-    margin-top: 25px;
-    cursor: pointer;
+    background-size: cover;
+    height: 540px;
 }
+
+
+/* FINAL DA CAIXA */
