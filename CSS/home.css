@@ -1,15 +1,9 @@
-/* CSS Geral da página */
-
-* {
-    font-family: "Arial Narrow", Arial, sans-serif;
-}
-
+/* CSS GERAL DA PÁGINA */
 body { 
     margin: 0;
     padding: 0;
     border: 0;
     width: 100%;
-    background-attachment: fixed;
 }
 
 /* Inicio do cabeçalho */
@@ -39,24 +33,23 @@ body {
 
 .img_lol {
     background-repeat: no-repeat; 
-    width: 3%;
+    width: 4%;
     float: left;
-    margin-left: 40px;
-    margin-top: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
     cursor: pointer;
 }
 
 .container nav {
     float: right; 
     color: black;
-    margin-top: -56px;
+    margin-top: 4px;
 }
 
 .container a {
     text-decoration: none;
     margin-left: 100px;
 }
-
 
 .container li {
     color: white;
@@ -69,7 +62,7 @@ body {
 
 .caixa {
     border-right: 1px solid rgb(128, 128, 128);
-    margin-left: 100px;
+    margin-left:    130px;
 }
 
 .linha {
@@ -80,24 +73,25 @@ body {
 .linha:hover {
     box-shadow: 
         0 13px 0px 16px #111111,
-        0 16px 0px 15px #3cff00;
+        0 16px 0px 15px #0BC4E2;
 }
 
 .button {
     padding: 10px 10px 10px 15px;
-    background-color: #69ec12;
+    background-color: #0BC4E2;
     border-radius: 2px;
 	margin-left: 300px;
     text-transform: uppercase;
     display: inline-block;
     outline: 1px solid;
-    outline-color: rgb(0, 128, 0);
+    outline-color: #1894fa;
     outline-offset: 5px;
     transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    font-weight: bold
 }
   
 .button:hover {
-    outline-color: #69ec12;
+    outline-color: #0BC4E2;
     outline-offset: 13px;
 }
 
@@ -107,11 +101,11 @@ body {
     background-image: url("../VIDEO/video.lol.gif");
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 600px;
+    height: 650px;
 }
 
 .centro { 
-    height: 600px;
+    height: 650px;
     backdrop-filter: blur(10px);
     background-color: rgb(13 13 13 / 1%);
 }
@@ -121,8 +115,74 @@ body {
     text-align: center;
 }
 
+.botao_video {
+    z-index: 1;
+    position: absolute;
+    top: 95%;
+    left: 42%;
+    width: 200px;
+    height: 65px;
+    cursor: pointer;
+    background: #0BC4E2;
+    border: 1px solid rgb(205, 205, 205);
+    outline: none;
+    transition: 1s ease-in-out;
+    letter-spacing: 0.15em;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.botao_video:hover {
+    transition: 1s ease-in-out;
+    background: #288bdd;
+}
+
+.botao_video:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.botao_video span {
+    color: white;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.borda_video {
+    width: 87%;
+    height: 700px;
+    position: absolute;
+    border: 1px solid rgb(205, 205, 205);
+    left: 4.5%;
+    top: 21%;
+    margin-left: 2%;
+    margin-right: -6%;
+    overflow: hidden;
+    clip-path: polygon(0 0, 92.6% 0, 107.6% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+}
+
+.borda_video::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -55px;
+    right: 45px;
+    width: 1px;
+    height: 204px;
+    transform: rotate(140deg);
+    background-color: rgb(205 205 205);
+}
+
 .video {
-    width: 1100px;
+    width: 1200px;
     padding-top: 150px;
 }
 
@@ -143,7 +203,6 @@ body {
 
 .corpo_portfolio {
     width: 100%;
-    height: 450px;
     position: relative;
     padding: 20% 0px 3% 0px;;
 }
@@ -152,17 +211,28 @@ body {
 
 .caixa_portfolio1  {
     font-size: 1.1vw;
-    background-color: white;
-    border: 2px solid rgb(205, 205, 205);
     text-align: center;
     width: 25%;
-    height: 150px;
+    height: 160px;
     position: absolute;
     float: left;
     left: 6%;
     justify-content: center;
     display: flex;
     align-items: center;
+    clip-path: polygon(0 0, 88% 0, 103% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+}
+
+.caixa_portfolio1::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    right: 21px;
+    width: 2px;
+    height: 48px;
+    transform: rotate(134deg);
+    background-color: rgb(205 205 205);
 }
 
 .imagem_portfolio1 {
@@ -173,24 +243,46 @@ body {
     align-items: center;
 }
 
+.linha_borda1 {
+    background: white;
+    width: 93%;
+    height: 156px;
+    position: absolute;
+    border: 2px solid rgb(205, 205, 205);
+    z-index: -1;
+    left: 4.5%;
+    padding-right: 2px;
+    margin-left: 3px;
+}
+
 .pinguim {
     width: 145px;
     position: relative;
-    left: -10%;
+    left: 1.2%;
 }
 /*-----------------------------------------------------*/
 
 .caixa_portfolio2 {
-    color: black;
     font-size: 1.1vw; 
-    background-color: white;
-    border: 2px solid rgb(205, 205, 205);
     text-align: center;
-    width: 28%;
-    height: 150px;
+    width: 26%;
+    height: 160px;
     position: absolute;
     float: right;
     right: 36%;
+    clip-path: polygon(0 0, 88% 0, 103% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+}
+
+.caixa_portfolio2::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 20px;
+    width: 2px;
+    height: 59px;
+    transform: rotate(133deg);
+    background-color: rgb(205 205 205);
 }
 
 .imagem_portfolio2 {
@@ -201,24 +293,47 @@ body {
     align-items: center;
 }
 
+.linha_borda2 {
+    background: white;
+    width: 93%;
+    height: 156px;
+    position: absolute;
+    border: 2px solid rgb(205, 205, 205);
+    z-index: -1;
+    left: 4.5%;
+    padding-right: 2px;
+    margin-left: 3px;
+}
+
 .tahmkench {
     width: 145px;
     position: relative;
-    left: -10%;
+    left: 1.2%;
 }
 
 /*-------------------------------------------------*/
 
 .caixa_portfolio3  {
     font-size: 1.1vw;
-    background-color: white;
-    border: 2px solid rgb(205, 205, 205);
     text-align: center;
-    width: 28%;
-    height: 150px;
+    width: 26%;
+    height: 169px;
     position: absolute;
     float: left;
-    left: 68%;
+    left: 68.2%;
+    clip-path: polygon(0 0, 88% 0, 103% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+}
+
+.caixa_portfolio3::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 22px;
+    width: 2px;
+    height: 59px;
+    transform: rotate(133deg);
+    background-color: rgb(205 205 205);
 }
 
 .imagem_portfolio3{
@@ -229,10 +344,22 @@ body {
     align-items: center;
 }
 
+.linha_borda3 {
+    background: white;
+    width: 93%;
+    height: 162px;
+    position: absolute;
+    border: 2px solid rgb(205, 205, 205);
+    z-index: -1;
+    left: 4.5%;
+    padding-right: 2px;
+    margin-left: 3px;
+}
+
 .tft {
     width: 145px;
     position: relative;
-    left: -10%;
+    left: 1.4%;
 }
 
 /*--------------------------------------------------------*/
@@ -240,3 +367,15 @@ body {
 .titulo_cinza {
     color: rgb(188, 188, 188);
 }
+
+/* INICÍO DO RODAPÉ */
+.rodape {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+.centro_rodape {
+    
+}
+/* FINAL DO RODAPÉ */
