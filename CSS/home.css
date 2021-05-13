@@ -221,6 +221,11 @@ svg {
     display: flex;
     align-items: center;
     clip-path: polygon(0 0, 88% 0, 103% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+    transition: all 0.3s;
+}
+
+.caixa_portfolio1:hover {
+    transform: scale(0.99);
 }
 
 .caixa_portfolio1::after {
@@ -241,10 +246,15 @@ svg {
     justify-content: center;
     display: flex;
     align-items: center;
+    transition: all 0.3s;
+}
+
+.imagem_portfolio1:hover {
+    transform: scale(0.99);
 }
 
 .linha_borda1 {
-    background: white;
+    background: rgba(255, 255, 255, 0.589);
     width: 93%;
     height: 156px;
     position: absolute;
@@ -253,13 +263,24 @@ svg {
     left: 4.5%;
     padding-right: 2px;
     margin-left: 3px;
+    transition: all 0.3s;
+}
+
+.linha_borda1:hover {
+    transform: scale(0.99);
 }
 
 .pinguim {
     width: 145px;
     position: relative;
     left: 1.2%;
+    transition: all 0.3s;
 }
+    
+.pinguim:hover  {
+    transform: scale(0.99);
+}
+
 /*-----------------------------------------------------*/
 
 .caixa_portfolio2 {
@@ -269,8 +290,13 @@ svg {
     height: 160px;
     position: absolute;
     float: right;
-    right: 36%;
+    right: 37%;
     clip-path: polygon(0 0, 88% 0, 103% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+    transition: all 0.3s;
+}
+
+.caixa_portfolio2:hover {
+    transform: scale(0.99);
 }
 
 .caixa_portfolio2::after {
@@ -291,6 +317,11 @@ svg {
     justify-content: center;
     display: flex;
     align-items: center;
+    transition: all 0.3s;
+}
+
+.imagem_portfolio2:hover {
+    transform: scale(0.99);
 }
 
 .linha_borda2 {
@@ -303,12 +334,22 @@ svg {
     left: 4.5%;
     padding-right: 2px;
     margin-left: 3px;
+    transition: all 0.3s;
+}
+
+.linha_borda2:hover {
+    transform: scale(0.99);
 }
 
 .tahmkench {
     width: 145px;
     position: relative;
     left: 1.2%;
+    transition: all 0.3s;
+}
+
+.tahmkench:hover {
+    transform: scale(0.99);
 }
 
 /*-------------------------------------------------*/
@@ -322,6 +363,11 @@ svg {
     float: left;
     left: 68.2%;
     clip-path: polygon(0 0, 88% 0, 103% 30%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+    transition: all 0.3s;
+}
+
+.caixa_portfolio3:hover {
+    transform: scale(0.99);
 }
 
 .caixa_portfolio3::after {
@@ -342,6 +388,11 @@ svg {
     justify-content: center;
     display: flex;
     align-items: center;
+    transition: all 0.3s;
+}
+
+.imagem_portfolio3:hover {
+    transform: scale(0.99);
 }
 
 .linha_borda3 {
@@ -354,12 +405,27 @@ svg {
     left: 4.5%;
     padding-right: 2px;
     margin-left: 3px;
+    transition: all 0.3s;
+}
+
+.linha_borda3:hover {
+    transform: scale(0.99);
 }
 
 .tft {
     width: 145px;
     position: relative;
     left: 1.4%;
+    transition: all 0.3s;
+}
+
+.tft:hover {
+    transform: scale(0.99);
+}
+
+.text_decoration {
+    text-decoration: none;
+    color: black;
 }
 
 /*--------------------------------------------------------*/
