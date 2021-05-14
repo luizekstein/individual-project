@@ -568,5 +568,107 @@ svg {
 /* FINAL DO 1º RODAPÉ */
 
 /* INICÍO DO 2º RODAPÉ */
+.rodape_riot {
+    margin-top: 0px;
+}
+
+.rodape_fundo_riot {
+    background-color: #111111;
+    border-top: 2px solid rgba(51, 51, 51, 0.25);
+    padding: 35px 5px 175px;
+}
+
+.rodape_links_riot {
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rodape_links_riot ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_links_riot ul li a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #7E7E7E;
+}
+
+.rodape_riot_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.logo_riot_games {
+    height: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.rodape_riot_games_logos {
+    display: inline-block;
+}
+
+.rodape_riot_sociais ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_riot_sociais ul li a {
+    display: block;
+    margin: 13px;
+    text-decoration: none;
+    opacity: 0.54;
+    color: #ffeb00;
+}
+
+.rodape_copyright {
+    font-size: 12px;
+    max-width: 500px;
+    text-align: center;
+    color: #7E7E7E;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+.rodape_riot_links_legais {
+    font-size: 12px;
+}
+
+.rodape_riot_links_legais ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.rodape_riot_links_legais ul li a {
+    margin: 0 5px;
+    color: #7E7E7E;
+}
+
+.rodape_avaliacoes .rodape_texto_avaliacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_logo_avaliacao {
+    height: 140px;
+}
 
 /* FINAL DO 2º RODAPÉ */
