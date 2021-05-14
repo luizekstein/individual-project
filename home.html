@@ -52,14 +52,16 @@
         <div class="centro">
             <div class="div_video">
                 <div class="borda_video"></div>
-                <svg></svg>
-                <button class="botao_video">
-                    <svg width="199px" height="66.5px" viewBox="0 0 180 60" class="border">
-                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                    </svg>
-                    <span>JOGUE DE GRAÇA</span>
-                </button>
+                <a href="home.html">
+                    <svg></svg>
+                    <button class="botao_video" href="home.html">
+                        <svg width="199px" height="66.5px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <span>JOGUE DE GRAÇA</span>
+                    </button>
+                </a>
                 <video class="video" autoplay loop muted>
                     <source src="VIDEO/league-of-legends.mp4" type="video/mp4" />
                 </video>
@@ -80,10 +82,10 @@
                         <img class="pinguim" src="IMG/penguim-EDIT.jpg">
                     </a>
                     <div class="texto_portfolio1">
-                        <div>
+                        <div class="div_texto_port1">
                             <a class="text_decoration" href="home.html">
-                                <div class="titulo_cinza">ATUALIZAÇÕES DO JOGO</div>
-                                <div>Notas da Atualização 11.10</div>
+                                <div id="ajuste_titulo_port1" class="titulo_cinza">ATUALIZAÇÕES DO JOGO</div>
+                                <div id="ajuste_sub_titulo_port1">Notas da Atualização 11.10</div>
                             </a>
                         </div>
                     </div>
@@ -94,13 +96,13 @@
                 <div class="imagem_portfolio2">
                     <div class="linha_borda2"></div>
                     <a href="home.html">
-                    <img class="tahmkench" src="IMG/Tahm_Kench-EDIT.jpg">
+                        <img class="tahmkench" src="IMG/Tahm_Kench-EDIT.jpg">
                     </a>
                     <div class="texto_portfolio2">
-                        <div>
+                        <div class="div_texto_port2">
                             <a class="text_decoration" href="home.html">
-                                <div class="titulo_cinza">DEV</div>
-                                <div>Pergunte a Riot: Sai do banco, Tahm Kench</div>
+                                <div id="ajuste_titulo_port2" class="titulo_cinza">DEV</div>
+                                <div id="ajuste_sub_titulo_port2">Pergunte a Riot: Sai do banco, Tahm Kench</div>
                             </a>
                         </div>
                     </div>
@@ -114,10 +116,10 @@
                         <img class="tft" src="IMG/torneio_tft-EDIT.jpg">
                     </a>
                     <div class="texto_portfolio3">
-                        <div>
+                        <div class="div_texto_port3">
                             <a class="text_decoration" href="home.html">
-                                <div class="titulo_cinza">COMUNIDADE</div>
-                                <div>Torneio de Comunidade - Teamfight</div>
+                                <div id="ajuste_titulo_port3" class="titulo_cinza">COMUNIDADE</div>
+                                <div id="ajuste_sub_titulo_port3">Torneio de Comunidade - Teamfight</div>
                             </a>
                         </div>
                     </div>
@@ -129,27 +131,93 @@
     <!-- FINAL DAS CAIXAS -->
 
     <!-- INICÍO DO 1º RODAPÉ -->
-    <div class="rodape">
-        <div class="centro_rodape">
-            <div>LEVE O LEAGUE COM VOCÊ</div>
-            <div>Baixe o aplicativo do League para sempre estar conectado aos seus amigos e ter acesso às partidas e
-                notícias mais recentes dos Esports.</div>
-            <div class="imagens_ios_android"></div>
+    <section class="rodape1">
+        <div class="centro_rodape1">
+            <ul>
+                <li class="titulo_rodape1">
+                    <h3>LEVE O LEAGUE COM VOCÊ</h3>
+                </li>
 
+                <li class="texto_rodape1">
+                    <h3>Baixe o aplicativo do League para sempre estar conectado aos
+                        seus amigos e ter acesso às partidas e notícias mais recentes dos Esports.
+                    </h3>
+                </li>
+
+                <li class="geral_img1">
+                    <a href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&hl=br">
+                        <img class="img_android"
+                            src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/pt-br/production/pt-br/static/en_get.b89beec4.svg"
+                            alt="Google Play">
+                    </a>
+                    <a href="https://apps.apple.com/br/app/league-of-legends-friends/id1077150310?ls=1">
+                        <img class="img_apple"
+                            src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/pt-br/production/pt-br/static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.2928664f.svg"
+                            alt="Apple Play">
+                    </a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </section>
     <!-- FINAL DO 1º RODAPÉ -->
 
     <!-- INICÍO DO 2º RODAPÉ -->
-    <div class="rodape2">
-        <div class="centro_rodape2">
-            <div>LEVE O LEAGUE COM VOCÊ</div>
-            <div>Baixe o aplicativo do League para sempre estar conectado aos seus amigos e ter acesso às partidas e
-                notícias mais recentes dos Esports.</div>
-            <div class="imagens_ios_android"></div>
+    <!-- <div>
+        <div class="rodape2">
+            <div class="centro_rodape2">
 
+                <div class="">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div>
+                        <a href="home.html"></a>
+                    </div>
+                </div>
+
+                <div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>
+
+                    </p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div>
+                        <div>
+                            <img src="IMG/12_anos_classificação.png" alt="Classificação Indicativa: 12 anos (Violência)">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
+    </div> -->
     <!-- FINAL DO 2º RODAPÉ -->
 
 

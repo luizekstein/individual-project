@@ -1,5 +1,5 @@
 /* CSS GERAL DA PÁGINA */
-body { 
+body {
     margin: 0;
     padding: 0;
     border: 0;
@@ -27,12 +27,12 @@ body {
 }
 
 .container .logo {
-    float: left; 
-    color: black; 
+    float: left;
+    color: black;
 }
 
 .img_lol {
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     width: 4%;
     float: left;
     margin-left: 20px;
@@ -41,7 +41,7 @@ body {
 }
 
 .container nav {
-    float: right; 
+    float: right;
     color: black;
     margin-top: 4px;
 }
@@ -62,16 +62,16 @@ body {
 
 .caixa {
     border-right: 1px solid rgb(128, 128, 128);
-    margin-left:    130px;
+    margin-left: 130px;
 }
 
 .linha {
-    font-size: 15px;
-    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .linha:hover {
-    box-shadow: 
+    box-shadow:
         0 13px 0px 16px #111111,
         0 16px 0px 15px #0BC4E2;
 }
@@ -80,7 +80,7 @@ body {
     padding: 10px 10px 10px 15px;
     background-color: #0BC4E2;
     border-radius: 2px;
-	margin-left: 300px;
+    margin-left: 300px;
     text-transform: uppercase;
     display: inline-block;
     outline: 1px solid;
@@ -89,22 +89,22 @@ body {
     transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
     font-weight: bold
 }
-  
+
 .button:hover {
     outline-color: #0BC4E2;
     outline-offset: 13px;
 }
 
- /* INICÍO DO WALLPAPER*/ 
+/* INICÍO DO WALLPAPER*/
 
-.wallpaper {    
+.wallpaper {
     background-image: url("../VIDEO/video.lol.gif");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
 }
 
-.centro { 
+.centro {
     height: 650px;
     backdrop-filter: blur(10px);
     background-color: rgb(13 13 13 / 1%);
@@ -189,27 +189,80 @@ svg {
 /* FINAL DO WALLPAPER */
 
 /* INICÍO DA CAIXA */
-.corpo_geral {    
-    background-image: url("../IMG/fundo-branco.jpg");
-    background-repeat: no-repeat; 
+.corpo_geral {
+    background-image: url(../IMG/fundo-branco.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 540px;
+    height: 300px;
+    padding: 20% 0px 0% 0px;
+}
+
+.texto_portfolio1 {
+    height: 100%;
+}
+
+.div_texto_port1 {
+    height: 100%;
+    position: relative;
+    padding-right: 22px;
+}
+
+#ajuste_titulo_port1 {
+    font-size: 10px;
+    position: relative;
+    top: 20%;
+}
+
+#ajuste_sub_titulo_port1 {
+    position: relative;
+    bottom: -36%;
+    left: 7%;
+}
+
+.div_texto_port2 {
+    height: 100%;
+    position: relative;
+    padding-right: 22px;
+}
+
+#ajuste_titulo_port2 {
+    font-size: 10px;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+#ajuste_sub_titulo_port2 {
+    position: relative;
+    bottom: -36%;
+    left: 7%;
+}
+
+.div_texto_port3 {
+    height: 100%;
+    position: relative;
+    padding-right: 22px;
+}
+
+#ajuste_titulo_port3 {
+    font-size: 10px;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+#ajuste_sub_titulo_port3 {
+    position: relative;
+    bottom: -36%;
+    left: 7%;
 }
 
 /* FINAL DA CAIXA */
 
 
-/* INICIO PORTFOLIO */
-
-.corpo_portfolio {
-    width: 100%;
-    position: relative;
-    padding: 20% 0px 3% 0px;;
-}
-
 /* INICÍO DAS IMAGENS + PORFÓLIO ESPECIFÍCO */
 
-.caixa_portfolio1  {
+.caixa_portfolio1 {
     font-size: 1.1vw;
     text-align: center;
     width: 25%;
@@ -232,10 +285,10 @@ svg {
     content: "";
     position: absolute;
     z-index: 1;
-    top: -6px;
+    top: -7px;
     right: 21px;
-    width: 2px;
-    height: 48px;
+    width: 3px;
+    height: 49px;
     transform: rotate(134deg);
     background-color: rgb(205 205 205);
 }
@@ -273,18 +326,19 @@ svg {
 .pinguim {
     width: 145px;
     position: relative;
-    left: 1.2%;
+    left: 3%;
     transition: all 0.3s;
+    padding-top: 3.5px;
 }
-    
-.pinguim:hover  {
+
+.pinguim:hover {
     transform: scale(0.99);
 }
 
 /*-----------------------------------------------------*/
 
 .caixa_portfolio2 {
-    font-size: 1.1vw; 
+    font-size: 1.1vw;
     text-align: center;
     width: 26%;
     height: 160px;
@@ -303,11 +357,11 @@ svg {
     content: "";
     position: absolute;
     z-index: 1;
-    top: -10px;
+    top: -7px;
     right: 20px;
     width: 2px;
-    height: 59px;
-    transform: rotate(133deg);
+    height: 55px;
+    transform: rotate(132.5deg);
     background-color: rgb(205 205 205);
 }
 
@@ -324,8 +378,12 @@ svg {
     transform: scale(0.99);
 }
 
+.texto_portfolio2 {
+    height: 100%;
+}
+
 .linha_borda2 {
-    background: white;
+    background: rgba(255, 255, 255, 0.589);
     width: 93%;
     height: 156px;
     position: absolute;
@@ -344,8 +402,9 @@ svg {
 .tahmkench {
     width: 145px;
     position: relative;
-    left: 1.2%;
+    left: 3.2%;
     transition: all 0.3s;
+    padding-top: 2.5px;
 }
 
 .tahmkench:hover {
@@ -354,7 +413,7 @@ svg {
 
 /*-------------------------------------------------*/
 
-.caixa_portfolio3  {
+.caixa_portfolio3 {
     font-size: 1.1vw;
     text-align: center;
     width: 26%;
@@ -374,15 +433,19 @@ svg {
     content: "";
     position: absolute;
     z-index: 1;
-    top: -10px;
-    right: 22px;
+    top: -7px;
+    right: 20px;
     width: 2px;
-    height: 59px;
-    transform: rotate(133deg);
+    height: 56.5px;
+    transform: rotate(133.5deg);
     background-color: rgb(205 205 205);
 }
 
-.imagem_portfolio3{
+.texto_portfolio3 {
+    height: 100%;
+}
+
+.imagem_portfolio3 {
     height: 100%;
     position: absolute;
     justify-content: center;
@@ -396,7 +459,7 @@ svg {
 }
 
 .linha_borda3 {
-    background: white;
+    background: rgba(255, 255, 255, 0.918);
     width: 93%;
     height: 162px;
     position: absolute;
@@ -415,8 +478,9 @@ svg {
 .tft {
     width: 145px;
     position: relative;
-    left: 1.4%;
+    left: 3.2%;
     transition: all 0.3s;
+    padding-top: 2.5px;
 }
 
 .tft:hover {
@@ -434,14 +498,75 @@ svg {
     color: rgb(188, 188, 188);
 }
 
-/* INICÍO DO RODAPÉ */
-.rodape {
-    background-color: black;
-    height: 150px;
-    width: 100%;
+/*--------------------------------------------------------*/
+
+/* INICÍO DO 1º RODAPÉ */
+
+.rodape1 {
+    height: 80%;
+    background-color: rgb(6, 28, 37);
 }
 
-.centro_rodape {
-    
+.centro_rodape1 {
+    max-width: 95%;
+    margin: 0 auto;
+    height: 100%;
 }
-/* FINAL DO RODAPÉ */
+
+.centro_rodape1 ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titulo_rodape1 {
+    color: white;
+    width: 45%;
+    padding-right: 70px;
+    padding-top: 10px;
+}
+
+.texto_rodape1 {
+    color: white;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    font-size: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.geral_img1 {
+    display: flex;
+    padding-left: 80px;
+}
+
+.img_android {
+    height: 60px;
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+
+.img_android:hover {
+    transform: scale(1.1);
+}
+
+.img_apple {
+    height: 40px;
+    padding-top: 20px;
+    width: 134px;
+    transition: all 0.3s;
+}
+
+.img_apple:hover {
+    transform: scale(1.1);
+}
+
+/* FINAL DO 1º RODAPÉ */
+
+/* INICÍO DO 2º RODAPÉ */
+
+/* FINAL DO 2º RODAPÉ */
