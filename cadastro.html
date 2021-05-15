@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cadastro.css">
+    <link rel="shortcut icon" href="IMG/logo-documento.png">
     <title>Cadastro</title>
 </head>
+
 <body>
 
-    <!-- INICÍO DO HEADER -->
-    <div class="header">
-        <div class="container">
-            <img class="img_lol" onclick="ocultaForm()" src="./IMG/logo-documento.png" alt="Logo do League Of Legends">
-            <h1 class="logo">
-            </h1>
+    <div id="root">
+        <div class="header">    
+            <div class="login_componente">
+                <div class="header_componente">
 
-            <nav>
-                <ul>
-                    <a href="home.html"> <li>Notícias</li> </a>
-                    <a href="cadastro.html"> <li>Cadastro</li> </a>
-                    <a href="home.html" class="button"> <li> Jogue Agora</li> </a>
-                </ul>
-            </nav>
+                    <a href="home.html">
+                        <img class="logo_lol" src="IMG/league_of_legends.png" alt="">
+                    </a>
+
+                    <div class="regiao_option">
+                        <label class="regiao_tabela" for="regiao_option">Região:</label>
+                    </div>
+
+                    <div class="controlar_select">
+                        <select id="selecionar_regiao"> 
+                            <option disable selected>Brasil (Português)</option>
+                            <option value="https://signup.eune.leagueoflegends.com/cs/signup/index?locale_referrer=pt_BR">Severní a východní Evropa (Čeština)</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
-    <!-- FIM DO HEADER -->
-    
+
 </body>
+
 </html>
