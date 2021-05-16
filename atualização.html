@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cadastro.css">
+    <link rel="shortcut icon" href="IMG/logo-documento.png">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <!-- WALLPAPER  -->
+    
+
+    <!-- INICÍO DO HEADER -->
+    <div class="header">
+        <div class="container">
+            <span>
+                <img onclick="ocultaForm()" src="IMG/league_of_legends.png" alt="Logo do League Of Legends">
+            </span>
+
+            <nav>
+                <ul>
+                    <li>Região:</li>
+                    <li>
+                        <select id="regiao">
+                            <option value="">Brasil (Português)</option>
+                            <option value="">Eu West (English)</option>
+                            <option value="">Severní a východní Evropa (Čeština)</option>
+                        </select>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+    </div>
+    <!-- FIM DO HEADER -->
+
+    <!-- INICIO DO WALLPAPER -->
+    <div class="wallpaper">
+        <div class="container_wallpaper">
+            <div class="conteudo">
+                <nav>
+                    <li></li>
+                    <li></li>
+                    <img src="" alt="">
+                    <input type="text">
+                    <button></button>
+                    <li></li>
+                </nav>
+                <div class="progressao_cadastro">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- FINAL DO WALLPAPER -->
+    
+
+
+
+
+</body>
+
+<script>
+    var clicks = 1;
+
+    function ocultaForm() {
+        while (clicks === 1) {
+            window.location.href = "home.html"
+            clicks++;
+        }
+    }
+</script>
