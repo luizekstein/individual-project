@@ -2,10 +2,13 @@ body{
     margin: 0;
     border: 0;
     padding: 0;
-    background-image: url("../IMG/wallpaper_cadastro3.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 970px;
+    height: 680px;
+}
+
+.video_cad {
+    height: 767px;
+    position: fixed;
+    z-index: -1;
 }
 
 .imagem_linha {
@@ -18,20 +21,18 @@ body{
     height: 145px;
 }
 
+.linha_imagem {
+    position: absolute;
+    width: 20px;
+    left: 50%;
+    top: -585px;
+}
+
 .lol_imagem {
     width: 150px;
     position: absolute;
     margin-top: 20px;
     cursor: pointer;
-}
-
-.selecao_idioma {
-    cursor: pointer;
-    padding: 9px 35px 9px 15px;
-    border: 2px solid #7e633b;
-    background: #111;
-    color: #c4b998;
-    text-transform: uppercase;
 }
 
 .header .container {
@@ -43,16 +44,6 @@ body{
 .header nav {
     float: right;
     padding-top: 25px;
-}
-
-ul {
-    list-style: none;
-}
-
-ul li {
-    display: inline;
-    color: #937341;
-    margin-left: 5px;
 }
 
 #regiao {
@@ -80,6 +71,15 @@ ul li {
     border-bottom-width: 1px;
 }
 /* INICÍO DO WALLPAPER */
+.link {
+    color: #c4b998;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.link:hover {
+    color: #ebe6d9;;
+}
 
 .header2 {
     width: 100%;
@@ -94,14 +94,18 @@ ul li {
 }
 
 .texto1 {
-    font-size: 47px;
+    font-size: 80px;
     color: white;
 }
 
 .texto2 {
     color: #d5b26e;
-    margin-top: 35px;
-    margin-bottom: 65px;
+    margin-top: 15px;
+}
+
+.imagem_texto {
+    margin-top: 45px;
+    margin-bottom: 6px;
 }
 
 .estilo_inpt {
@@ -110,54 +114,9 @@ ul li {
     border: 0 solid #7e633b;
     border-bottom-width: 1px;
     font-family: serif;
-    font-size: 18px;
+    font-size: 34px;
     font-weight: 400;
     color: #c4b998;
-    margin-bottom: 60px;
-}
-
-.estilo_inpt2 {
-    width: 45%;
-    background: transparent;
-    border: 0 solid #7e633b;
-    border-bottom-width: 1px;
-    font-family: serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #c4b998;
-    margin-bottom: 60px;
-}
-
-.estilo_inpt3 {
-    width: 45%;
-    background: transparent;
-    border: 0 solid #7e633b;
-    border-bottom-width: 1px;
-    font-family: serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #c4b998;
-    margin-bottom: 50px;
-}
-
-.cor_div_checkbox1 {
-    color: #c4b998;
-    font-size: 13px;
-}
-
-.cor_div_checkbox2 {
-    margin-right: 13.8%;
-    margin-top: 10px;
-    color: #c4b998;
-    font-size: 13px;
-}
-
-.cor_texto_checkbox {
-    color: #c4b998;
-}
-
-.cor_texto_checkbox:hover {
-    color: #ece7d7;
 }
 
 .estilo_inpt:focus {
@@ -165,18 +124,8 @@ ul li {
     outline: 0;
 }
 
-.estilo_inpt2:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
-}
-
-.estilo_inpt3:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
-}
-
 .botao_cadastro {
-    margin: 30px 0 20px;
+    margin: 30px 0 30px;
 }
 
 .botao_cadastro button {
@@ -194,26 +143,6 @@ ul li {
     color: #c4b998;
 }
 
-.progressao_cadastro {
-    font-size: 10px;
-    padding-top: 10px;
-    margin: 10px auto;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #937341;
-}
-.link {
-    color: #c4b998;
-}
-.link:hover {
-    color: #ffffff;
-}
-
-.imagem_passo {
-    padding-top: 40px;
-    padding-left: 5px;
-}
-
 .logo_riotgames {
     height: 55px;
     margin-left: -95%;
@@ -229,22 +158,6 @@ ul li {
     color: #937341;
     font-size: 15px;
     padding-top: 20px;
-}
-
-#box_inpt{
-    all: unset;
-    border: 2px solid #7e633b;
-    background: rgba(0,0,0,.7);
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-#box_inpt:checked{
-  width: 15px;
-  height: 15px;
-  background-color: rgb(204, 156, 35);
 }
 
 .politica {

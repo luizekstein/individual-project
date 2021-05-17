@@ -6,7 +6,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(10px);
-    height: 1000px;
+    height: 940px;
 }
 
 .imagem_linha {

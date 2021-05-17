@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cadastro4.css">
+    <link rel="shortcut icon" href="IMG/logo-documento.png">
+    <title>Cadastro</title>
+</head>
+
+
+<body>
+    <video class="video_cad" autoplay loop muted>
+        <source src="VIDEO/TESTE.mp4" type="video/mp4"/>
+    </video>
+
+    <!-- INICÍO DO HEADER -->
+    <div class="header">
+        <div class="container">
+            <img class="linha_imagem"
+                src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/pt_BR/03a5e95dd434e72e5746eae1ee22f0b440c81c79/assets/pt_BR/assets/hangtag.svg"
+                alt="">
+            <img class="lol_imagem" onclick="ocultaForm()" src="IMG/league_of_legends.png"
+                alt="Logo do League Of Legends">
+        </div>
+    </div>
+    <!-- FIM DO HEADER -->
+
+    <!-- INICIO -->
+    <div class="header2">
+        <div class="container2">
+            <div class="texto1">TUDO PRONTO!</div>
+            <div class="texto2">PODE BAIXAR!</div>
+
+            <div>
+                <img class="imagem_texto"
+                    src="IMG/linha_dourada.png">
+            </div>
+
+            <div class="botao_cadastro">
+                <a href="https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.exe">
+                    <button>BAIXAR PARA WINDOWS</button>
+                </a>
+            </div>
+
+            <div class="progressao_cadastro">
+                <a class="link"
+                    href="https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.zip">
+                    BAIXAR INSTALADOR PARA MEC
+                </a>
+            </div>
+
+            <div>
+                <img class="logo_riotgames" src="IMG/riotgames_punho.png" alt="Logo da Riot Games">
+            </div>
+
+            <div>
+                <img class="logo_classificacao" src="IMG/12_anos_classificação-HD.png"
+                    alt="Classificação Indicativa: 12 anos">
+            </div>
+
+            <div class="protecao">Este site é protegido por hCaptcha; sua
+                <a class="politica" href="https://www.hcaptcha.com/privacy">Politica de Privacidade</a>
+                e seus
+                <a class="termos" href="https://www.hcaptcha.com/terms">Termos de Serviço</a>
+                são aplicáveis.
+            </div>
+
+            <div class="direitos">© 2021 Riot Games, inc. Todos os direitos reservados.</div>
+
+        </div>
+    </div>
+    </div>
+    <!-- FINAL -->
+
+
+
+</body>
+
+<script>
+    var clicks = 1;
+
+    function ocultaForm() {
+        while (clicks == 1) {
+            window.location.href = "home.html"
+            clicks++;
+        }
+    }
+</script>
