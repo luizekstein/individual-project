@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     border: 0;
     padding: 0;
@@ -66,7 +66,7 @@ ul li {
 }
 
 #regiao:hover {
-    border-color: #ecc572;   
+    border-color: #ecc572;
 }
 
 #regiao:focus {
@@ -79,6 +79,7 @@ ul li {
     border: 0 solid #7e633b;
     border-bottom-width: 1px;
 }
+
 /* INICÍO DO WALLPAPER */
 
 .header2 {
@@ -202,9 +203,11 @@ ul li {
     text-transform: uppercase;
     color: #937341;
 }
+
 .link {
     color: #c4b998;
 }
+
 .link:hover {
     color: #ffffff;
 }
@@ -231,25 +234,25 @@ ul li {
     padding-top: 20px;
 }
 
-#box_inpt{
+#box_inpt {
     all: unset;
     border: 2px solid #7e633b;
-    background: rgba(0,0,0,.7);
+    background: rgba(0, 0, 0, .7);
     width: 15px;
     height: 15px;
     display: inline-block;
     cursor: pointer;
 }
 
-#box_inpt:checked{
-  width: 15px;
-  height: 15px;
-  background-color: rgb(204, 156, 35);
+#box_inpt:checked {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(204, 156, 35);
 }
 
 .politica {
     color: #937341;
-    font-family: Spiegel,sans-serif;
+    font-family: Spiegel, sans-serif;
 }
 
 .politica:hover {
@@ -268,5 +271,5 @@ ul li {
     color: #937341;
     padding-top: 8px;
     font-size: 13px;
-    font-family: Spiegel,sans-serif;
+    font-family: Spiegel, sans-serif;
 }

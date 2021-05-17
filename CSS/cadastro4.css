@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     border: 0;
     padding: 0;
@@ -57,7 +57,7 @@ body{
 }
 
 #regiao:hover {
-    border-color: #ecc572;   
+    border-color: #ecc572;
 }
 
 #regiao:focus {
@@ -70,6 +70,7 @@ body{
     border: 0 solid #7e633b;
     border-bottom-width: 1px;
 }
+
 /* INICÍO DO WALLPAPER */
 .link {
     color: #c4b998;
@@ -78,7 +79,8 @@ body{
 }
 
 .link:hover {
-    color: #ebe6d9;;
+    color: #ebe6d9;
+    ;
 }
 
 .header2 {
@@ -162,7 +164,7 @@ body{
 
 .politica {
     color: #937341;
-    font-family: Spiegel,sans-serif;
+    font-family: Spiegel, sans-serif;
 }
 
 .politica:hover {
@@ -181,5 +183,5 @@ body{
     color: #937341;
     padding-top: 8px;
     font-size: 13px;
-    font-family: Spiegel,sans-serif;
+    font-family: Spiegel, sans-serif;
 }
