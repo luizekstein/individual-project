@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/cadastro.css">
+    <link rel="stylesheet" href="CSS/cadastro3.css">
     <link rel="shortcut icon" href="IMG/logo-documento.png">
     <title>Cadastro</title>
 </head>
@@ -16,9 +16,7 @@
     <!-- INICÍO DO HEADER -->
     <div class="header">
         <div class="container">
-            <img class="linha_imagem"
-                src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/pt_BR/03a5e95dd434e72e5746eae1ee22f0b440c81c79/assets/pt_BR/assets/hangtag.svg"
-                alt="">
+
             <img class="lol_imagem" onclick="ocultaForm()" src="IMG/league_of_legends.png"
                 alt="Logo do League Of Legends">
             <nav>
@@ -89,34 +87,44 @@
     <!-- INICIO -->
     <div class="header2">
         <div class="container2">
-            <div class="texto1">SUA LENDA COMEÇA AGORA</div>
-            <div class="texto2">PRIMEIRO, PRECISAMOS DO SEU E-MAIL.</div>
+            <div class="texto1">POR FIM, CRIE UM NOME DE USUÁRIO E SENHA</div>
+            <div class="texto2">VOCÊ ESCOLHERÁ SEU NOME NO JOGO MAIS TARDE</div>
 
             <div>
-                <img class="imagem_texto"
-                    src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/pt_BR/03a5e95dd434e72e5746eae1ee22f0b440c81c79/assets/pt_BR/assets/divider.png"
-                    alt="">
+                <input class="estilo_inpt" placeholder="NOME DE USUÁRIO" type="email" style="text-align: center;">
             </div>
 
             <div>
-                <input class="estilo_inpt" placeholder="Insira o e-mail aqui" type="email" style="text-align: center;">
+                <input class="estilo_inpt2" placeholder="SENHA" type="email" style="text-align: center;">
+            </div>
+
+            <div>
+                <input class="estilo_inpt3" placeholder="CONFIRMAR SENHA" type="email" style="text-align: center;">
+            </div>
+
+            <div class="cor_div_checkbox1">
+                <input id="box_inpt" type="checkbox">
+                <label for="">Concordo com os
+                    <a class="cor_texto_checkbox" href="https://br.leagueoflegends.com/pt/legal/termsofuse">Termos de
+                        Uso</a>
+                    e li e aceito a
+                    <a class="cor_texto_checkbox" href="https://br.leagueoflegends.com/pt/legal/privacy">Política de
+                        Privacidade</a>
+                </label>
+            </div>
+
+            <div class="cor_div_checkbox2">
+                <input id="box_inpt" type="checkbox">
+                <label for="">Receber eventuais e-mails da Riot Games.</label>
             </div>
 
             <div class="botao_cadastro">
-                <a href="cadastro2.html">
-                    <button>COMEÇAR</button>
+                <a href="cadastro4.html">
+                    <button>AVANÇAR</button>
                 </a>
             </div>
 
-            <div class="progressao_cadastro">
-                Já possui uma conta?
-                <a class="link"
-                    href="https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.exe">
-                    Clique aqui para baixar
-                </a>
-            </div>
-
-            <img class="imagem_passo" src="IMG/1ºpasso.png">
+            <img class="imagem_passo" src="IMG/3ºpasso.png">
 
             <div>
                 <img class="logo_riotgames" src="IMG/riotgames_punho.png" alt="Logo da Riot Games">
