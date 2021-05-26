@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-image: url("../IMG/background-login.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 507px;
+    font-family: 'FF Mark W05', sans-serif;
+}
+
+.container {
+    background: #f9f9f9;
+    width: 30%;
+    height: 96%;
+    margin-left: 33%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.escrita {
+    font-size: 12px;
+    padding-top: 40px;
+    color: #111;
+}
+
+.inpt_senha {
+    display: inline-block;
+}
+
+#usuario {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-right: 110px;
+    text-align: inherit;
+    background: #ededed;
+    border: 0 solid;
+    font-family: serif;
+}
+
+#senha {
+    margin-bottom: 15px;
+    height: 30px;
+    width: 100%;
+    margin-right: 110px;
+    text-align: center;
+    background: #ededed;
+    border: 0 solid;
+    font-family: serif;
+}
+
+.imagem_login {
+    width: 101%;
+    height: 7%;
+}
+
+.imagem_login button {
+    cursor: pointer;
+    height: 32px;
+    width: 88px;
+}
+
+.btn_facebook {
+    background: #2e89ff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn_facebook:hover {
+    background: #006eff;
+}
+
+.btn_gmail {
+    background: #ffffff;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+.btn_gmail:hover {
+    background: #f8f8f8;
+}
+
+.btn_apple {
+    border: 0;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn_apple:hover {
+    background: rgb(36, 36, 36);
+}
+
+.check_login {
+    margin-top: 7px;
+    margin-right: 45%;
+}
+
+.seta_login {
+    height: 70px;
+    width: 80px;
+    border-radius: 20px;
+    margin-top: 45px;
+    cursor: pointer;
+    background: #bc252a;
+    border: 1px solid #dedede;
+}
+
+.seta_login:hover {
+    background: #cf2329;
+}
+
+.criar_conta {
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.conta_cadastro a {
+    color: #666;
+    text-decoration: none;
+}
+
+.conta_cadastro h2:hover {
+    color: #161616;
+}
+
+#logo_riot {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    height: 45px;
+    border-radius: 40px;
+}
