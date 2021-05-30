@@ -110,7 +110,6 @@ body {
     font-family: "Beaufort for LOL", serif;
     font-style: italic;
 }
-
 /* FINAL DO TÍTULO */
 
 /* INICÍO DAS CAIXAS 1 DE ATT */
@@ -188,7 +187,7 @@ body {
     width: 87%;
     height: 32%;
     position: absolute;
-    top: 102%;
+    top: 107%;
     left: 6.3%;
     display: flex;
     margin-left: 2px;
@@ -208,7 +207,7 @@ body {
 
 .texto_imagem4 {
     position: absolute;
-    top: 133%;
+    top: 137%;
     left: 7.5%;
     height: 22%;
     width: 24.3%;
@@ -216,7 +215,7 @@ body {
 
 .texto_imagem5 {
     position: absolute;
-    top: 133%;
+    top: 137%;
     left: 38%;
     height: 22%;
     width: 24.3%;
@@ -224,7 +223,7 @@ body {
 
 .texto_imagem6 {
     position: absolute;
-    top: 133%;
+    top: 137%;
     left: 69%;
     height: 22%;
     width: 24.3%;
@@ -258,7 +257,7 @@ body {
     width: 87%;
     height: 32%;
     position: absolute;
-    top: 155%;
+    top: 165%;
     left: 6.3%;
     display: flex;
     margin-left: 2px;
@@ -278,7 +277,7 @@ body {
 
 .texto_imagem7 {
     position: absolute;
-    top: 188%;
+    top: 195%;
     left: 7.5%;
     height: 22%;
     width: 24.3%;
@@ -286,7 +285,7 @@ body {
 
 .texto_imagem8 {
     position: absolute;
-    top: 188%;
+    top: 195%;
     left: 38.5%;
     height: 22%;
     width: 24.3%;
@@ -294,7 +293,7 @@ body {
 
 .texto_imagem9 {
     position: absolute;
-    top: 188%;
+    top: 195%;
     left: 69.5%;
     height: 22%;
     width: 24.3%;
@@ -321,12 +320,12 @@ body {
     color: black;
 }
 
-/* FINAL DA CAIXA DE ATT */
+/* FINAL DA CAIXA 3 DE ATT */
 
 /* INICÍO DO 1º RODAPÉ */
 .rodape1 {
     position: absolute;
-    top: 212%;
+    top: 225%;
     height: 80%;
     background-color: rgb(6, 28, 37);
 }
@@ -394,7 +393,7 @@ body {
 /* INICÍO DO 2º RODAPÉ */
 .rodape_riot {
     position: absolute;
-    top: 226%;
+    top: 239%;
     width: 100%;
 }
 
@@ -494,5 +493,4 @@ body {
 .rodape_logo_avaliacao {
     height: 140px;
 }
-
 /* FINAL DO 2º RODAPÉ */
