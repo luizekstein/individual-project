@@ -1,0 +1,502 @@
+/* CSS GERAL DA PÁGINA */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+/* INICÍO DO HEADER */
+
+.header {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    height: 72.5px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container .logo {
+    float: left;
+    color: black;
+}
+
+.img_lol {
+    width: 4%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.container nav {
+    color: black;
+    padding-top: 1px;
+    padding-left: 85px;
+    width: 106%;
+}
+
+.container a {
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 65px;
+}
+
+.container li {
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -30px;
+}
+
+.caixa {
+    border-right: 1px solid rgb(128, 128, 128);
+    margin-left: 85px;
+}
+
+.linha {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.linha:hover {
+    box-shadow:
+        0 3px 0px 21.4px #111111,
+        0 12px 0px 15px #0bc4e2;
+}
+
+.button {
+    padding: 10px 15px 10px 17px;
+    background-color: #0BC4E2;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    outline: 1px solid;
+    outline-color: #1894fa;
+    outline-offset: 5px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+.button:hover {
+    outline-color: #0BC4E2;
+    outline-offset: 13px;
+}
+
+/* FINAL DO HEADER */
+
+/* INICÍO DO TÍTULO */
+.fundo_tema {
+    width: 91%;
+    position: absolute;
+    height: 18%;
+    margin-top: 100px;
+    background: #061c25;
+    margin-left: 60px;
+    clip-path: polygon(0 0, 98% 0, 100% 25%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+}
+
+.tema {
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-family: "Beaufort for LOL", serif;
+    font-style: italic;
+}
+
+/* FINAL DO TÍTULO */
+
+/* INICÍO DAS CAIXAS 1 DE ATT */
+.imagem_div1 {
+    width: 87%;
+    height: 32%;
+    position: absolute;
+    top: 47%;
+    left: 6.3%;
+    display: flex;
+    margin-left: 2px;
+}
+
+.imagem_div1 img {
+    height: 180px;
+    margin-right: 57px;
+    cursor: pointer;
+    max-width: 100%;
+    transition: all 0.5s;
+}
+
+.imagem_div1 img:hover {
+    transform: scale(0.94);
+}
+
+.texto_imagem1 {
+    position: absolute;
+    top: 78%;
+    left: 7.5%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.texto_imagem2 {
+    position: absolute;
+    top: 78%;
+    left: 38%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.texto_imagem3 {
+    position: absolute;
+    top: 78%;
+    left: 69%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.att_jogo h5 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgb(11, 198, 227);
+}
+
+.att_notas h4 {
+    font-size: 23px;
+    margin-top: -8px;
+    color: black;
+}
+
+.att_horario h6 {
+    margin-top: -15px;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    letter-spacing: 0.75px;
+    font-weight: 100;
+    color: black;
+}
+
+/* FINAL DAS CAIXAS 1 DE ATT */
+
+/* INICÍO DAS CAIXAS 2 DE ATT */
+.imagem_div2 {
+    width: 87%;
+    height: 32%;
+    position: absolute;
+    top: 102%;
+    left: 6.3%;
+    display: flex;
+    margin-left: 2px;
+}
+
+.imagem_div2 img {
+    height: 180px;
+    margin-right: 57px;
+    cursor: pointer;
+    max-width: 100%;
+    transition: all 0.5s;
+}
+
+.imagem_div2 img:hover {
+    transform: scale(0.94);
+}
+
+.texto_imagem4 {
+    position: absolute;
+    top: 133%;
+    left: 7.5%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.texto_imagem5 {
+    position: absolute;
+    top: 133%;
+    left: 38%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.texto_imagem6 {
+    position: absolute;
+    top: 133%;
+    left: 69%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.att_jogo2 h5 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgb(11, 198, 227);
+}
+
+.att_notas2 h4 {
+    font-size: 23px;
+    margin-top: -8px;
+    color: black;
+}
+
+.att_horario2 h6 {
+    margin-top: -15px;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    letter-spacing: 0.75px;
+    font-weight: 100;
+    color: black;
+}
+
+/* FIM DAS CAIXAS 2 DE ATT */
+
+/* INICÍO DAS CAIXAS 3 DE ATT */
+.imagem_div3 {
+    width: 87%;
+    height: 32%;
+    position: absolute;
+    top: 155%;
+    left: 6.3%;
+    display: flex;
+    margin-left: 2px;
+}
+
+.imagem_div3 img {
+    height: 180px;
+    margin-right: 57px;
+    cursor: pointer;
+    max-width: 100%;
+    transition: all 0.5s;
+}
+
+.imagem_div3 img:hover {
+    transform: scale(0.94);
+}
+
+.texto_imagem7 {
+    position: absolute;
+    top: 188%;
+    left: 7.5%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.texto_imagem8 {
+    position: absolute;
+    top: 188%;
+    left: 38.5%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.texto_imagem9 {
+    position: absolute;
+    top: 188%;
+    left: 69.5%;
+    height: 22%;
+    width: 24.3%;
+}
+
+.att_jogo3 h5 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgb(11, 198, 227);
+}
+
+.att_notas3 h4 {
+    font-size: 23px;
+    margin-top: -8px;
+    color: black;
+}
+
+.att_horario3 h6 {
+    margin-top: -15px;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    letter-spacing: 0.75px;
+    font-weight: 100;
+    color: black;
+}
+
+/* FINAL DA CAIXA DE ATT */
+
+/* INICÍO DO 1º RODAPÉ */
+.rodape1 {
+    position: absolute;
+    top: 212%;
+    height: 80%;
+    background-color: rgb(6, 28, 37);
+}
+
+.centro_rodape1 {
+    max-width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.centro_rodape1 ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titulo_rodape1 {
+    color: white;
+    width: 45%;
+    padding-right: 70px;
+    padding-top: 10px;
+}
+
+.texto_rodape1 {
+    color: white;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    font-size: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.geral_img1 {
+    display: flex;
+    padding-left: 80px;
+}
+
+.img_android {
+    height: 60px;
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+
+.img_android:hover {
+    transform: scale(1.1);
+}
+
+.img_apple {
+    height: 40px;
+    padding-top: 20px;
+    width: 134px;
+    transition: all 0.3s;
+}
+
+.img_apple:hover {
+    transform: scale(1.1);
+}
+
+/* FINAL DO 1º RODAPÉ */
+
+/* INICÍO DO 2º RODAPÉ */
+.rodape_riot {
+    position: absolute;
+    top: 227%;
+    width: 100%;
+}
+
+.rodape_fundo_riot {
+    background-color: #111111;
+    border-top: 2px solid rgba(51, 51, 51, 0.25);
+    padding: 35px 5px 175px;
+}
+
+.rodape_links_riot {
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rodape_links_riot ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_links_riot ul li a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #7E7E7E;
+}
+
+.rodape_links_riot ul li a:hover {
+    color: white;
+}
+
+.rodape_riot_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.logo_riot_games {
+    height: 80px;
+}
+
+.rodape_riot_games_logos {
+    display: inline-block;
+}
+
+.rodape_riot_sociais ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_riot_sociais ul li a {
+    display: block;
+    margin: 13px;
+    text-decoration: none;
+    opacity: 0.54;
+    color: #ffeb00;
+}
+
+.rodape_copyright {
+    font-size: 12px;
+    max-width: 500px;
+    text-align: center;
+    color: #7E7E7E;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+.rodape_riot_links_legais {
+    font-size: 12px;
+}
+
+.rodape_riot_links_legais ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.rodape_riot_links_legais ul li a {
+    margin: 0 5px;
+    color: #7E7E7E;
+}
+
+.rodape_avaliacoes .rodape_texto_avaliacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_logo_avaliacao {
+    height: 140px;
+}
+
+/* FINAL DO 2º RODAPÉ */
