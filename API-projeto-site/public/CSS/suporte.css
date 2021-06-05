@@ -94,109 +94,58 @@ body {
 
 /* INICÍO DO TÍTULO */
 .fundo_tema {
-    width: 91%;
+    width: 100%;
     position: absolute;
-    height: 18%;
-    margin-top: 100px;
-    background: #061c25;
-    margin-left: 60px;
-    clip-path: polygon(0 0, 98% 0, 100% 25%, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+    height: 212%;
+    background-image: url(../IMG/wallpaper_suporte.jpg);
 }
 
 .tema {
-    color: white;
-    padding-left: 40px;
-    padding-top: 10px;
-    font-family: "Beaufort for LOL", serif;
-    font-style: italic;
+    color: black;
+    padding-left: 108px;
+    font-size: 28px;
+    padding-top: 90px;
+    text-transform: uppercase;
+    font-family: sans-serif;
 }
 
 /* FINAL DO TÍTULO */
 
 /* INICÍO DAS CAIXAS 1 DE ATT */
 .imagem_div1 {
-    width: 87%;
-    height: 32%;
+    height: 70%;
     position: absolute;
-    top: 47%;
-    left: 6.3%;
+    top: 52%;
+    left: 9%;
     display: flex;
-    margin-left: 2px;
 }
 
 .imagem_div1 img {
-    height: 180px;
-    margin-right: 57px;
+    height: 400px;
+    margin-right: 43px;
     cursor: pointer;
     max-width: 100%;
     transition: all 0.5s;
 }
 
 .imagem_div1 img:hover {
-    transform: scale(0.94);
-}
-
-.texto_imagem1 {
-    position: absolute;
-    top: 78%;
-    left: 7.5%;
-    height: 22%;
-    width: 24.3%;
-}
-
-.texto_imagem2 {
-    position: absolute;
-    top: 78%;
-    left: 38%;
-    height: 22%;
-    width: 24.3%;
-}
-
-.texto_imagem3 {
-    position: absolute;
-    top: 78%;
-    left: 69%;
-    height: 22%;
-    width: 24.3%;
-}
-
-.att_jogo h5 {
-    font-size: 10px;
-    letter-spacing: 1px;
-    color: rgb(11, 198, 227);
-}
-
-.att_notas h4 {
-    font-size: 23px;
-    margin-top: -8px;
-    color: black;
-}
-
-.att_horario h6 {
-    margin-top: -15px;
-    text-transform: lowercase;
-    font-family: sans-serif;
-    letter-spacing: 0.75px;
-    font-weight: 100;
-    color: black;
+    transform: scale(1.05);
 }
 
 /* FINAL DAS CAIXAS 1 DE ATT */
 
 /* INICÍO DAS CAIXAS 2 DE ATT */
 .imagem_div2 {
-    width: 87%;
-    height: 32%;
     position: absolute;
-    top: 102%;
-    left: 6.3%;
+    top: 132%;
+    left: 24%;
     display: flex;
     margin-left: 2px;
 }
 
 .imagem_div2 img {
-    height: 180px;
-    margin-right: 57px;
+    height: 400px;
+    margin-right: 50px;
     cursor: pointer;
     max-width: 100%;
     transition: all 0.5s;
@@ -206,29 +155,7 @@ body {
     transform: scale(0.94);
 }
 
-.texto_imagem4 {
-    position: absolute;
-    top: 133%;
-    left: 7.5%;
-    height: 22%;
-    width: 24.3%;
-}
 
-.texto_imagem5 {
-    position: absolute;
-    top: 133%;
-    left: 38%;
-    height: 22%;
-    width: 24.3%;
-}
-
-.texto_imagem6 {
-    position: absolute;
-    top: 133%;
-    left: 69%;
-    height: 22%;
-    width: 24.3%;
-}
 
 .att_jogo2 h5 {
     font-size: 10px;
@@ -236,19 +163,8 @@ body {
     color: rgb(11, 198, 227);
 }
 
-.att_notas2 h4 {
-    font-size: 23px;
-    margin-top: -8px;
-    color: black;
-}
-
-.att_horario2 h6 {
-    margin-top: -15px;
-    text-transform: lowercase;
-    font-family: sans-serif;
-    letter-spacing: 0.75px;
-    font-weight: 100;
-    color: black;
+.cor_riot {
+    color: #d13639;
 }
 
 /* FIM DAS CAIXAS 2 DE ATT */
@@ -276,125 +192,12 @@ body {
     transform: scale(0.94);
 }
 
-.texto_imagem7 {
-    position: absolute;
-    top: 188%;
-    left: 7.5%;
-    height: 22%;
-    width: 24.3%;
-}
-
-.texto_imagem8 {
-    position: absolute;
-    top: 188%;
-    left: 38.5%;
-    height: 22%;
-    width: 24.3%;
-}
-
-.texto_imagem9 {
-    position: absolute;
-    top: 188%;
-    left: 69.5%;
-    height: 22%;
-    width: 24.3%;
-}
-
-.att_jogo3 h5 {
-    font-size: 10px;
-    letter-spacing: 1px;
-    color: rgb(11, 198, 227);
-}
-
-.att_notas3 h4 {
-    font-size: 23px;
-    margin-top: -8px;
-    color: black;
-}
-
-.att_horario3 h6 {
-    margin-top: -15px;
-    text-transform: lowercase;
-    font-family: sans-serif;
-    letter-spacing: 0.75px;
-    font-weight: 100;
-    color: black;
-}
-
 /* FINAL DA CAIXA DE ATT */
-
-/* INICÍO DO 1º RODAPÉ */
-.rodape1 {
-    position: absolute;
-    top: 212%;
-    height: 80%;
-    background-color: rgb(6, 28, 37);
-}
-
-.centro_rodape1 {
-    max-width: 95%;
-    margin: 0 auto;
-    height: 100%;
-}
-
-.centro_rodape1 ul {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.titulo_rodape1 {
-    color: white;
-    width: 45%;
-    padding-right: 70px;
-    padding-top: 10px;
-}
-
-.texto_rodape1 {
-    color: white;
-    display: flex;
-    height: 100%;
-    width: 80%;
-    font-size: 10px;
-    padding-top: 10px;
-    font-family: sans-serif;
-}
-
-.geral_img1 {
-    display: flex;
-    padding-left: 80px;
-}
-
-.img_android {
-    height: 60px;
-    padding-top: 10px;
-    transition: all 0.3s;
-}
-
-.img_android:hover {
-    transform: scale(1.1);
-}
-
-.img_apple {
-    height: 40px;
-    padding-top: 20px;
-    width: 134px;
-    transition: all 0.3s;
-}
-
-.img_apple:hover {
-    transform: scale(1.1);
-}
-
-/* FINAL DO 1º RODAPÉ */
 
 /* INICÍO DO 2º RODAPÉ */
 .rodape_riot {
     position: absolute;
-    top: 227%;
+    top: 212%;
     width: 100%;
 }
 
