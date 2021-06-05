@@ -9,7 +9,9 @@ PPT
 
 Titulo do projeto
 
-tema: qual tema e porque é importante 
+tema: qual tema 
+
+porque é importante 
 
 valores: valor que eu possuo pra me apresentar (cores, designer, jogos), o que tem de mim no site.
 
