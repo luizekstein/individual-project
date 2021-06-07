@@ -3,7 +3,7 @@ create database League_Of_Legends;
 use League_Of_Legends;
 
 create table Usuarios(
-	idUsuario int primary key not null auto_increment,
+	idUsuario int primary key auto_increment,
     email varchar (60), 
     nome varchar (80),
     dia varchar (2),
@@ -14,7 +14,7 @@ create table Usuarios(
     confirmarSenha varchar (50)
 );
 
-create table Personagens;
+drop table Usuarios;
 
 select * from Usuarios;
 

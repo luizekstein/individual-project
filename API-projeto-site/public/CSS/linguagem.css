@@ -6,7 +6,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(10px);
-    height: 1575px;
+    height: 1590px;
 }
 
 .imagem_linha {
@@ -331,7 +331,8 @@ ul li {
 .cor_div_checkbox1 {
     color: #c4b998;
     font-size: 13px;
-    margin-left: 270px;
+    margin-left: 343px;
+    width: 34%;
 }
 
 .cor_div_checkbox2 {
