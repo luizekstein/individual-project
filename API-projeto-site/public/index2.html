@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/index2.css">
     <link rel="shortcut icon" href="IMG/logo-documento.png">
+    <script type="text/javascript" src="funcoes.js"></script>
     <title>League Of Legends</title>
 </head>
 
@@ -20,26 +21,26 @@
 
             <nav>
                 <ul>
-                    <a href="atualização.html">
+                    <a href="atualização2.html">
                         <li>
                             <span class="linha">Atualizações</span>
                             <span class="caixa"></span>
                         </li>
                     </a>
-                    <a href="noticias.html">
+                    <a href="noticias2.html">
                         <li>
                             <span class="linha">Notícias</span>
                             <span class="caixa"></span>
                         </li>
                     </a>
-                    <a href="suporte.html">
+                    <a href="suporte2.html">
                         <li>
                             <span class="linha">Suporte</span>
                             <span class="caixa"></span>
                         </li>
                     </a>
                     <li>
-                        <b id="pessoa_logada">Olá,<span id="b_usuario"></span></b>
+                        <b id="pessoa_logada">Olá, <span id="b_usuario"></span></b>
                     </li>
 
                     <a href="index.html">
@@ -47,7 +48,7 @@
                             <u id="logoff">Fazer logoff</u>
                         </li>
                     </a>
-                    <a href="cadastro.html" class="button">
+                    <a href="cadastro2.html" class="button">
                         <li>JOGUE AGORA</li>
                     </a>
                 </ul>
@@ -268,8 +269,12 @@
 
     function ocultaForm() {
         while (clicks === 1) {
-            window.location.href = "index.html"
+            window.location.href = "index2.html"
             clicks++;
         }
     }
+
+    var usuario;
+    verificar_autenticacao();
+
 </script>

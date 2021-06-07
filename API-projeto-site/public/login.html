@@ -13,7 +13,9 @@
 <body>
 
     <div>
-        <a href="index.html"><img id="logo_riot" src="IMG/logo-riot-vermelho.jpg" alt="Logo Riot"></a>
+        <a href="index.html">
+            <img id="logo_riot" src="IMG/logo-riot-vermelho.jpg" alt="Logo Riot">
+        </a>
     </div>
 
     <div class="container">
@@ -24,8 +26,10 @@
         <form id="form_login" method="post" onsubmit="return entrar()">
 
             <div class="inpt_senha">
-                <input required minlength="5" name="login" id="usuario" placeholder="NOME DE USUÁRIO" type="text">
-                <input required minlength="5" name="senha" id="senha" placeholder="SENHA" type="password">
+                <input required minlength="5" onclick="alerta_login()" class="inpt_login" name="login" id="usuario"
+                    placeholder="NOME DE USUÁRIO" type="text" autofocus>
+                <input required minlength="5" onclick=" alerta_senha()" class="inpt_senha" name="senha" id="senha"
+                    placeholder="SENHA" type="password">
             </div>
 
             <div class="imagem_login">
@@ -43,9 +47,7 @@
             </div>
 
             <div class="conta_cadastro">
-                <a href="cadastro.html">
-                    <h2 class="criar_conta">CRIAR CONTA</h2>
-                </a>
+                <h2 class="criar_conta">CRIAR CONTA</h2>
             </div>
         </form>
 
@@ -58,7 +60,7 @@
 <script>
     function entrar() {
         var formulario = new URLSearchParams(new FormData(form_login));
-        fetch("/usuarios/autenticar", {
+        fetch("/usuarios/autenticar", { // Autenticar (função dentro do Routes)
             method: "POST",
             body: formulario
         }).then(resposta => {
@@ -67,10 +69,12 @@
 
                 resposta.json().then(json => {
 
-                    sessionStorage.login_usuario_meuapp = json.login;
-                    sessionStorage.nome_usuario_meuapp = json.nome;
+                    sessionStorage.login_usuario_meuapp = json
+                        .login; // Script pra salvamento na página (armazena informações)
+                    sessionStorage.nome_usuario_meuapp = json
+                        .nome; // Script pra salvamento na página (armazena informações)
 
-                    window.location.href = 'download.html'; // Página para ir após fazer o login 
+                    window.location.href = 'donwload.html'; // Página para ir após fazer o login 
                 });
 
             } else {
@@ -85,4 +89,19 @@
 
         return false;
     }
+
+    // var inpt_login = sessionStorage.login_usuario_meuapp;
+    // var inpt_senha = sessionStorage.login_senha_meuapp;
+
+    // function alerta_login() {
+    //     if (inpt_login == undefined) {
+    //         alert("Usuário ou senha incorreta!");
+    //     }
+    // }
+
+    // function alerta_senha() {
+    //     if (inpt_senha == undefined) {
+    //         alert("Usuário ou senha incorreta!");
+    //     }
+    // }
 </script>

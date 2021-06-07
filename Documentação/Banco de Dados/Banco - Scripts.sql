@@ -10,13 +10,14 @@ create table Usuarios(
     mes varchar (10),
     ano varchar (4),
     login varchar (30),
-    senha varchar (50),
-    confirmarSenha varchar (50)
+    senha varchar (50)
 );
 
 drop table Usuarios;
 
 select * from Usuarios;
+
+delete from Usuarios where idusuario = ?;
 
 
 

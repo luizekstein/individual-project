@@ -6,7 +6,7 @@ var Usuario = require('../models').Usuario;
 let sessoes = [];
 
 /* Recuperar usuário por login e senha */
-router.post('/autenticar', function(req, res, next) {
+router.post('/autenticar', function(req, res, next) { // Puxa a function do login (mais precisamente o fetch "/usuarios/auntenticar")
 	console.log('Recuperando usuário por login e senha');
 
 	var login = req.body.login; // depois de .body, use o nome (name) do campo em seu formulário de login
@@ -47,8 +47,7 @@ router.post('/cadastrar', function(req, res, next) {
 		mes: req.body.mes,
 		ano: req.body.ano,
 		login: req.body.login,
-		senha: req.body.senha,
-		confirmarSenha: req.body.confirmarSenha
+		senha: req.body.senha
 	}).then(resultado => {
 		console.log(`Registro criado: ${resultado}`)
         res.send(resultado);

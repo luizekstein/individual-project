@@ -7,7 +7,7 @@ https://codewithhugo.com/sequelize-data-types-a-practical-guide/
 
 module.exports = (sequelize, DataTypes) => {
     let Usuario = sequelize.define('Usuario',{
-		id: {
+		idUsuario: {
 			field: 'idUsuario',
 			type: DataTypes.INTEGER,
 			primaryKey: true,
@@ -45,11 +45,6 @@ module.exports = (sequelize, DataTypes) => {
 		},
 		senha: {
 			field: 'senha',
-			type: DataTypes.STRING,
-			allowNull: false
-		},
-		confirmarSenha: {
-			field: 'confirmarSenha',
 			type: DataTypes.STRING,
 			allowNull: false
 		}

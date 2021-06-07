@@ -28,7 +28,7 @@ module.exports = {
     username: 'root',
     password: 'bandtec',
     database: 'League_Of_Legends',
-    host: '127.0.0.1',
+    host: 'localhost',
     dialect: 'mysql',
     xuse_env_variable: 'DATABASE_URL',
     dialectOptions: {
