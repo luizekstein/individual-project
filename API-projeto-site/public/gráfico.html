@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js"
+        integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A=="
+        crossorigin="anonymous"></script>
+    <title>Gráfico - ChartJS</title>
+</head>
+
+<body>
+
+    <div style=" width:70%; position: absolute; left: 15%; top: 15%; ">
+        <canvas id="mychart"></canvas> 
+        <br><br><br><br>
+        <canvas id="mychart2"></canvas>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    var ctx = mychart.getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Idade Maxima', 'Idade Minima', 'Média da idade'],
+            datasets: [{
+                label: 'Valores das idades cadastradas',
+                data: [104, 12, 24],
+                backgroundColor: [
+                    'gold',
+                    'black',
+                    'cyan'
+                ],
+                borderColor: [
+                    'gold',
+                    'black',
+                    'cyan'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
