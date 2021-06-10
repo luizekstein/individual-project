@@ -19,6 +19,8 @@ select * from Usuarios;
 
 delete from Usuarios where idusuario = ?;
 
+select round(avg(DATEDIFF(date_format(now(),'%Y-%m-%d'), ano))/365,0) as Idade from Usuarios;
+
 
 
 
