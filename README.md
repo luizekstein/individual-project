@@ -1,2 +1,2 @@
 # Projeto_Individual
-Projeto Individual sobre League Of Legends
+Projeto Individual sobre o jogo League Of Legends.
